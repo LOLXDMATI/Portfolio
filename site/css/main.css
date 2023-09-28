@@ -1,0 +1,383 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffffff;
+    
+}
+
+.containerglass{
+  width: 1864px;
+  height: 500px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+
+h2{
+  font-size: 30px;
+  text-align: center;
+  transform: translateX(-50%);
+  transform: translateY(500%);
+  text-transform: uppercase;
+}
+h3{
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  transform: translateX(50%);
+  transform: translateY(500%);
+  text-transform: uppercase;
+}
+
+
+.shadow-bg {
+    background-color: rgba(221, 217, 217, 0.8);
+    transition: .6s;
+  }
+  
+
+  .fa-chevron-down, .bounce-top{
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  font-size: 30px;
+  color: #039dff;
+  }
+
+
+
+.red{
+font-weight: bold;
+}
+
+
+
+.aboutus-card-text{
+
+    font-size: 14px;
+
+}
+
+
+.aboutus-card-title{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+.underline{
+    margin: 0 auto 40px;
+    width: 60px;
+    height: 4px;
+    background-color: #039dff;
+}
+
+.blue{
+    color: #039dff;
+}
+
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.navbar-brand{
+
+    font-weight: bold;
+}
+
+nav {
+  z-index: 1;
+    
+        border: 1px solid;
+        border-color: #c5c3c3;
+        
+    .navbar-toggler{
+        padding: 10px 15px;
+        
+    }
+
+    text-transform: uppercase;
+    
+    .nav-link, .navbar-nav .show>.nav-link, .navbar-brand, .fa-bars {
+        color: #333;
+    }
+
+    .nav-link:focus, .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link, .navbar-brand:hover{
+        color: #039dff;
+    }
+}
+
+
+.divide{
+    border: 40px solid;
+    height: 80px;
+    color: #ebebeb;
+    
+}
+
+.divide-1{
+  border: 40px solid;
+  height: 80px;
+  color: #ffffff;
+  
+}
+
+h5{
+  font-size: x-large;
+}
+  
+
+
+  .aboutus  {
+    margin-top: 20px;
+    font-size: 35px;
+  }
+  .aboutus .aboutus-card-title  {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .aboutus .aboutus-card-text {
+    font-size: 15px;
+  }
+  .aboutus .aboutus-hover {
+    transition: color 0.3s;
+  }
+  .aboutus .aboutus-hover:hover {
+    color: #039dff;
+  }
+  
+  .aboutus-hero {
+    position: relative;
+    font-size:large;
+    background-image: url("../github-big.jpg");
+    background-size: auto;
+    background-position: center;
+    color: #ddd;
+    z-index: 0;
+  }
+  .aboutus-hero .aboutus-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -5;
+  }
+  .aboutus-hero .aboutus-hero-item {
+    margin: 10px 0;
+  }
+  .aboutus-hero .aboutus-hero-item i {
+    font-size: 36px;
+  }
+  .aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+    font-size: 24px;
+  }
+
+  .card {
+    transition: scale 0.3s;
+  }
+
+  .social .card img {
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .social .card .card-body {
+    height: 100px;
+  }
+  .social .card:hover {
+    scale: 0.96;
+  }
+  .social .card-title {
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+
+  .social .carousel-item {
+    height: 700px;
+    width: 700px;
+    transform: translateX(80%);
+  }
+  .social .carousel-caption {
+    left: 0;
+    right: 0;
+    padding: 40px 0;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .social .carousel-indicators {
+    padding-bottom: 20px;
+    width: 100%;
+    transform: translateX(-15%);
+  }
+  
+.contact{
+  
+  background-color: rgba(0, 9, 27, 0.884);
+}
+  .contact .section-title {
+    color: #ddd;
+    transform: translateY(1%);
+
+  }
+  .contact .underline {
+    background-color: #ddd;
+  }
+  .contact .contact-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: -5;
+  }
+  .contact .contact-us {
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  .contact h3{
+    color: #ddd;
+    transform: translateY(5%);
+  }
+
+  .contact .contact-us .contact-item {
+    margin: 30px 0;
+  }
+  .contact .contact-us .contact-item h3 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .contact .contact-us .social-media {
+    font-size: 26px;
+  }
+  .contact .contact-us .social-media a {
+    padding: 10px;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  .contact .contact-us .social-media a:hover {
+    color: #039dff;
+  }
+
+
+
+
+  
+  @media (min-width: 768px) {
+    .hero-text h1 {
+      font-size: 42px;
+    }
+    .hero-text p {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    html {
+      scroll-padding-top: 72px;
+    }
+
+    .aboutus-hero {
+      background-image: url("../github-6980894_1280.png");
+    }
+ .carousel{
+  opacity: 10;
+  display: flex;
+  width: 100%;
+}
+.containerglass{
+  width: 100%;
+}
+
+
+  }
+  @media (min-width: 1200px) {
+    header.hero-img {
+      background-image: url("../github-6980894_640.png");
+    }
+  
+  }
+  @media (min-width: 992px) {
+    .card{
+display: none;
+
+    }
+    .carousel{
+      opacity: 100;
+      width: 100%;
+    }
+    .containerglass{
+      width: 100%;
+    }
+    .carousel-indicators{
+      width: 100%;
+    }
+    .social{
+      width: 100%;
+    }
+  
+
+  }
+  @media (max-width: 992px){
+    .containerglass{
+      width: 100%;
+    }
+    .carousel{
+      width: 0.1px;
+    }
+    .social{
+      width: 100%;
+      text-align: center;
+    }
+    .card img{
+      align-items: center;
+      width: 100%;
+    }
+    
+  }
+  @media screen and (max-width:800px) {
+    .containerglass{
+      width: 100%;
+    }
+
+    
+  }
+
+  @media (max-width: 436px){
+    h2{
+      transform: translateY(230%);
+    } 
+
+  }
+
+
+
+
